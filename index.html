@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="navbar">
-        <div class="header-inner-content">
+    <div class="navbar show-menu">
+        <div class="header-inner-content ">
             <h1 class="logo">BLUE<span>STORE</span></h1>
             <nav>
                 <ul>
@@ -29,7 +29,7 @@
     <header>
         <div class="header-inner-content">
             <div class="header-buttom-side">
-                <div class="header-bottom-side-left">
+                <div class="header-buttom-side-left">
                     <h2>Dê Um Novo Estilo ao Seu Trabalho!</h2>
                     <p>
                         Sucesso nem sempre tem haver com grandeza. Tem haver com 
@@ -43,5 +43,15 @@
             </div>
         </div>
     </header>
+    
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButtom = document.querySelector(".menu-buttom");
+
+        menuButtom.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
+
 </body>
 </html>
