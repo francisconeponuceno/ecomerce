@@ -363,4 +363,12 @@ main {
     font-weight: bold;
     color: #fff;
 }
+
+.download-options>div {
+    display: flex;
+}
+
+.download-options >div img {
+    width: 180px;
+}
 /* footer */
