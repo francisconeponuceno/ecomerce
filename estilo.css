@@ -268,9 +268,12 @@ main {
     }
 
     .cols-3 {
-        grid-template-columns: repeat(1, 1rf);
+        grid-template-columns: repeat(1, 1fr);
     }
     
+    .cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Main Content */
