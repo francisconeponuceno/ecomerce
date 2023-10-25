@@ -429,6 +429,12 @@ main {
     }
 }
 
+
+@media (max-width: 395px) {
+    .header-buttom-side-right {
+        width: 300px;
+    }
+}
 /* footer */
 
 
