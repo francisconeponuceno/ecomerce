@@ -423,9 +423,9 @@ main {
 }
 
 
-@media (max-width:400) {
-    .header-buttom-side-right div{
-        width: 340px;
+@media (max-width: 400px) {
+    .header-buttom-side-right {
+        width: 320px;
     }
 }
 
