@@ -423,6 +423,12 @@ main {
 }
 
 
+@media (max-width:400) {
+    .header-buttom-side-right div{
+        width: 340px;
+    }
+}
+
 /* footer */
 
 
